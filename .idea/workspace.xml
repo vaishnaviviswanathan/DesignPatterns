@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46b8e798-d3cc-4e73-82be-b5e0431653ec" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/singleton-pattern/singleton-pattern.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/singleton-pattern/src/MainApp.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/singleton-pattern/src/SingletonObject.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/state-pattern/src/Context.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/state-pattern/src/MainApp.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/state-pattern/src/StartState.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/state-pattern/src/State.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/state-pattern/src/StopState.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/state-pattern/state-pattern.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -18,27 +21,65 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SingletonObject.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/singleton-pattern/src/SingletonObject.java">
+      <file leaf-file-name="Context.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/state-pattern/src/Context.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="29" lean-forward="false" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+            <state relative-caret-position="240">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding>
-                <element signature="e#193#194#0" expanded="true" />
-                <element signature="e#231#232#0" expanded="true" />
-                <element signature="e#264#265#0" expanded="true" />
-                <element signature="e#327#328#0" expanded="true" />
+                <element signature="e#62#63#0" expanded="true" />
+                <element signature="e#93#94#0" expanded="true" />
+                <element signature="e#133#134#0" expanded="true" />
+                <element signature="e#165#166#0" expanded="true" />
+                <element signature="e#195#196#0" expanded="true" />
+                <element signature="e#223#224#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="MainApp.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/singleton-pattern/src/MainApp.java">
+        <entry file="file://$PROJECT_DIR$/state-pattern/src/MainApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+            <state relative-caret-position="195">
+              <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="State.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/state-pattern/src/State.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="42" lean-forward="false" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StartState.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/state-pattern/src/StartState.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="31" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="5" selection-end-column="31" />
+              <folding>
+                <element signature="e#235#236#0" expanded="true" />
+                <element signature="e#270#271#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StopState.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/state-pattern/src/StopState.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+              <folding>
+                <element signature="e#233#234#0" expanded="true" />
+                <element signature="e#267#268#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -108,6 +149,11 @@
         <option value="$PROJECT_DIR$/bridge-pattern/src/MainApp.java" />
         <option value="$PROJECT_DIR$/singleton-pattern/src/SingletonObject.java" />
         <option value="$PROJECT_DIR$/singleton-pattern/src/MainApp.java" />
+        <option value="$PROJECT_DIR$/state-pattern/src/State.java" />
+        <option value="$PROJECT_DIR$/state-pattern/src/Context.java" />
+        <option value="$PROJECT_DIR$/state-pattern/src/StartState.java" />
+        <option value="$PROJECT_DIR$/state-pattern/src/StopState.java" />
+        <option value="$PROJECT_DIR$/state-pattern/src/MainApp.java" />
       </list>
     </option>
   </component>
@@ -145,12 +191,12 @@
             <path>
               <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
-              <item name="singleton-pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="state-pattern" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
-              <item name="singleton-pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="state-pattern" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -175,7 +221,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MainApp (2)">
+  <component name="RunManager" selected="Application.MainApp (3)">
     <configuration name="MainApp (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="MainApp" />
@@ -204,6 +250,20 @@
       <module name="singleton-pattern" />
       <envs />
     </configuration>
+    <configuration name="MainApp (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="MainApp" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="state-pattern" />
+      <envs />
+    </configuration>
     <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="MainApp" />
@@ -230,20 +290,6 @@
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="composite-pattern" />
-      <envs />
-    </configuration>
-    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="MainClass" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="proxy-pattern" />
       <envs />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -327,19 +373,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.MainClass" />
-      <item index="1" class="java.lang.String" itemvalue="Application.MainClass (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Application.MainApp" />
-      <item index="3" class="java.lang.String" itemvalue="Application.MainApp (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Application.MainApp (2)" />
+      <item index="0" class="java.lang.String" itemvalue="Application.MainClass (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Application.MainApp" />
+      <item index="2" class="java.lang.String" itemvalue="Application.MainApp (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Application.MainApp (2)" />
+      <item index="4" class="java.lang.String" itemvalue="Application.MainApp (3)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.MainApp (2)" />
-        <item index="1" class="java.lang.String" itemvalue="Application.MainApp (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Application.MainApp" />
-        <item index="3" class="java.lang.String" itemvalue="Application.MainClass (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Application.MainClass" />
+        <item index="0" class="java.lang.String" itemvalue="Application.MainApp (3)" />
+        <item index="1" class="java.lang.String" itemvalue="Application.MainApp (2)" />
+        <item index="2" class="java.lang.String" itemvalue="Application.MainApp (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Application.MainApp" />
+        <item index="4" class="java.lang.String" itemvalue="Application.MainClass (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -742,8 +788,8 @@
         <state relative-caret-position="30">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="4" selection-end-column="5" />
           <folding>
-            <element signature="e#66#67#0" expanded="true" />
-            <element signature="e#120#121#0" expanded="true" />
+            <element signature="e#66#67#0" expanded="false" />
+            <element signature="e#120#121#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -753,8 +799,8 @@
         <state relative-caret-position="30">
           <caret line="2" column="33" lean-forward="false" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
           <folding>
-            <element signature="e#65#66#0" expanded="true" />
-            <element signature="e#121#122#0" expanded="true" />
+            <element signature="e#65#66#0" expanded="false" />
+            <element signature="e#121#122#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -764,8 +810,8 @@
         <state relative-caret-position="30">
           <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
           <folding>
-            <element signature="e#106#107#0" expanded="true" />
-            <element signature="e#138#139#0" expanded="true" />
+            <element signature="e#106#107#0" expanded="false" />
+            <element signature="e#138#139#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -775,10 +821,10 @@
         <state relative-caret-position="105">
           <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
           <folding>
-            <element signature="e#76#77#0" expanded="true" />
-            <element signature="e#104#105#0" expanded="true" />
-            <element signature="e#129#130#0" expanded="true" />
-            <element signature="e#157#158#0" expanded="true" />
+            <element signature="e#76#77#0" expanded="false" />
+            <element signature="e#104#105#0" expanded="false" />
+            <element signature="e#129#130#0" expanded="false" />
+            <element signature="e#157#158#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -799,6 +845,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/singleton-pattern/src/MainApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/singleton-pattern/src/SingletonObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -812,10 +866,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/singleton-pattern/src/MainApp.java">
+    <entry file="file://$PROJECT_DIR$/state-pattern/src/State.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        <state relative-caret-position="30">
+          <caret line="2" column="42" lean-forward="false" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/state-pattern/src/Context.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#62#63#0" expanded="true" />
+            <element signature="e#93#94#0" expanded="true" />
+            <element signature="e#133#134#0" expanded="true" />
+            <element signature="e#165#166#0" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
+            <element signature="e#223#224#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/state-pattern/src/StartState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="31" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="5" selection-end-column="31" />
+          <folding>
+            <element signature="e#235#236#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/state-pattern/src/StopState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding>
+            <element signature="e#233#234#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/state-pattern/src/MainApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
           <folding />
         </state>
       </provider>
